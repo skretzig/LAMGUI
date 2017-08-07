@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24D66E0E1F38E78200FEE323 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D66E0D1F38E78200FEE323 /* AppDelegate.swift */; };
+		24D66E101F38E78200FEE323 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D66E0F1F38E78200FEE323 /* ViewController.swift */; };
+		24D66E121F38E78200FEE323 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24D66E111F38E78200FEE323 /* Assets.xcassets */; };
+		24D66E151F38E78200FEE323 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D66E131F38E78200FEE323 /* Main.storyboard */; };
+		24D66E201F38E78200FEE323 /* LAMGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D66E1F1F38E78200FEE323 /* LAMGUITests.swift */; };
+		24D66E2B1F38E78200FEE323 /* LAMGUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D66E2A1F38E78200FEE323 /* LAMGUIUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24D66E1C1F38E78200FEE323 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24D66E021F38E78200FEE323 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24D66E091F38E78200FEE323;
+			remoteInfo = LAMGUI;
+		};
+		24D66E271F38E78200FEE323 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24D66E021F38E78200FEE323 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24D66E091F38E78200FEE323;
+			remoteInfo = LAMGUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24D66E0A1F38E78200FEE323 /* LAMGUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LAMGUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D66E0D1F38E78200FEE323 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24D66E0F1F38E78200FEE323 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24D66E111F38E78200FEE323 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24D66E141F38E78200FEE323 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24D66E161F38E78200FEE323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24D66E1B1F38E78200FEE323 /* LAMGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LAMGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D66E1F1F38E78200FEE323 /* LAMGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LAMGUITests.swift; sourceTree = "<group>"; };
+		24D66E211F38E78200FEE323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24D66E261F38E78200FEE323 /* LAMGUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LAMGUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D66E2A1F38E78200FEE323 /* LAMGUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LAMGUIUITests.swift; sourceTree = "<group>"; };
+		24D66E2C1F38E78200FEE323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24D66E071F38E78200FEE323 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D66E181F38E78200FEE323 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D66E231F38E78200FEE323 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24D66E011F38E78200FEE323 = {
+			isa = PBXGroup;
+			children = (
+				24D66E0C1F38E78200FEE323 /* LAMGUI */,
+				24D66E1E1F38E78200FEE323 /* LAMGUITests */,
+				24D66E291F38E78200FEE323 /* LAMGUIUITests */,
+				24D66E0B1F38E78200FEE323 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24D66E0B1F38E78200FEE323 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24D66E0A1F38E78200FEE323 /* LAMGUI.app */,
+				24D66E1B1F38E78200FEE323 /* LAMGUITests.xctest */,
+				24D66E261F38E78200FEE323 /* LAMGUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24D66E0C1F38E78200FEE323 /* LAMGUI */ = {
+			isa = PBXGroup;
+			children = (
+				24D66E0D1F38E78200FEE323 /* AppDelegate.swift */,
+				24D66E0F1F38E78200FEE323 /* ViewController.swift */,
+				24D66E111F38E78200FEE323 /* Assets.xcassets */,
+				24D66E131F38E78200FEE323 /* Main.storyboard */,
+				24D66E161F38E78200FEE323 /* Info.plist */,
+			);
+			path = LAMGUI;
+			sourceTree = "<group>";
+		};
+		24D66E1E1F38E78200FEE323 /* LAMGUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24D66E1F1F38E78200FEE323 /* LAMGUITests.swift */,
+				24D66E211F38E78200FEE323 /* Info.plist */,
+			);
+			path = LAMGUITests;
+			sourceTree = "<group>";
+		};
+		24D66E291F38E78200FEE323 /* LAMGUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24D66E2A1F38E78200FEE323 /* LAMGUIUITests.swift */,
+				24D66E2C1F38E78200FEE323 /* Info.plist */,
+			);
+			path = LAMGUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24D66E091F38E78200FEE323 /* LAMGUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24D66E2F1F38E78200FEE323 /* Build configuration list for PBXNativeTarget "LAMGUI" */;
+			buildPhases = (
+				24D66E061F38E78200FEE323 /* Sources */,
+				24D66E071F38E78200FEE323 /* Frameworks */,
+				24D66E081F38E78200FEE323 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LAMGUI;
+			productName = LAMGUI;
+			productReference = 24D66E0A1F38E78200FEE323 /* LAMGUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24D66E1A1F38E78200FEE323 /* LAMGUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24D66E321F38E78200FEE323 /* Build configuration list for PBXNativeTarget "LAMGUITests" */;
+			buildPhases = (
+				24D66E171F38E78200FEE323 /* Sources */,
+				24D66E181F38E78200FEE323 /* Frameworks */,
+				24D66E191F38E78200FEE323 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24D66E1D1F38E78200FEE323 /* PBXTargetDependency */,
+			);
+			name = LAMGUITests;
+			productName = LAMGUITests;
+			productReference = 24D66E1B1F38E78200FEE323 /* LAMGUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24D66E251F38E78200FEE323 /* LAMGUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24D66E351F38E78200FEE323 /* Build configuration list for PBXNativeTarget "LAMGUIUITests" */;
+			buildPhases = (
+				24D66E221F38E78200FEE323 /* Sources */,
+				24D66E231F38E78200FEE323 /* Frameworks */,
+				24D66E241F38E78200FEE323 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24D66E281F38E78200FEE323 /* PBXTargetDependency */,
+			);
+			name = LAMGUIUITests;
+			productName = LAMGUIUITests;
+			productReference = 24D66E261F38E78200FEE323 /* LAMGUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24D66E021F38E78200FEE323 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Sebastian Kretzig";
+				TargetAttributes = {
+					24D66E091F38E78200FEE323 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZH44GCVYRX;
+						ProvisioningStyle = Automatic;
+					};
+					24D66E1A1F38E78200FEE323 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZH44GCVYRX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 24D66E091F38E78200FEE323;
+					};
+					24D66E251F38E78200FEE323 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZH44GCVYRX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 24D66E091F38E78200FEE323;
+					};
+				};
+			};
+			buildConfigurationList = 24D66E051F38E78200FEE323 /* Build configuration list for PBXProject "LAMGUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24D66E011F38E78200FEE323;
+			productRefGroup = 24D66E0B1F38E78200FEE323 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24D66E091F38E78200FEE323 /* LAMGUI */,
+				24D66E1A1F38E78200FEE323 /* LAMGUITests */,
+				24D66E251F38E78200FEE323 /* LAMGUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24D66E081F38E78200FEE323 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D66E121F38E78200FEE323 /* Assets.xcassets in Resources */,
+				24D66E151F38E78200FEE323 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D66E191F38E78200FEE323 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D66E241F38E78200FEE323 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24D66E061F38E78200FEE323 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D66E101F38E78200FEE323 /* ViewController.swift in Sources */,
+				24D66E0E1F38E78200FEE323 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D66E171F38E78200FEE323 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D66E201F38E78200FEE323 /* LAMGUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D66E221F38E78200FEE323 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D66E2B1F38E78200FEE323 /* LAMGUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24D66E1D1F38E78200FEE323 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24D66E091F38E78200FEE323 /* LAMGUI */;
+			targetProxy = 24D66E1C1F38E78200FEE323 /* PBXContainerItemProxy */;
+		};
+		24D66E281F38E78200FEE323 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24D66E091F38E78200FEE323 /* LAMGUI */;
+			targetProxy = 24D66E271F38E78200FEE323 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24D66E131F38E78200FEE323 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24D66E141F38E78200FEE323 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24D66E2D1F38E78200FEE323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24D66E2E1F38E78200FEE323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		24D66E301F38E78200FEE323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZH44GCVYRX;
+				INFOPLIST_FILE = LAMGUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kdorna.LAMGUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		24D66E311F38E78200FEE323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZH44GCVYRX;
+				INFOPLIST_FILE = LAMGUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kdorna.LAMGUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		24D66E331F38E78200FEE323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZH44GCVYRX;
+				INFOPLIST_FILE = LAMGUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kdorna.LAMGUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LAMGUI.app/Contents/MacOS/LAMGUI";
+			};
+			name = Debug;
+		};
+		24D66E341F38E78200FEE323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZH44GCVYRX;
+				INFOPLIST_FILE = LAMGUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kdorna.LAMGUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LAMGUI.app/Contents/MacOS/LAMGUI";
+			};
+			name = Release;
+		};
+		24D66E361F38E78200FEE323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZH44GCVYRX;
+				INFOPLIST_FILE = LAMGUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kdorna.LAMGUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LAMGUI;
+			};
+			name = Debug;
+		};
+		24D66E371F38E78200FEE323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZH44GCVYRX;
+				INFOPLIST_FILE = LAMGUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kdorna.LAMGUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LAMGUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24D66E051F38E78200FEE323 /* Build configuration list for PBXProject "LAMGUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D66E2D1F38E78200FEE323 /* Debug */,
+				24D66E2E1F38E78200FEE323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24D66E2F1F38E78200FEE323 /* Build configuration list for PBXNativeTarget "LAMGUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D66E301F38E78200FEE323 /* Debug */,
+				24D66E311F38E78200FEE323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		24D66E321F38E78200FEE323 /* Build configuration list for PBXNativeTarget "LAMGUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D66E331F38E78200FEE323 /* Debug */,
+				24D66E341F38E78200FEE323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		24D66E351F38E78200FEE323 /* Build configuration list for PBXNativeTarget "LAMGUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D66E361F38E78200FEE323 /* Debug */,
+				24D66E371F38E78200FEE323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24D66E021F38E78200FEE323 /* Project object */;
+}
